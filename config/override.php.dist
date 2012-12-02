@@ -1,0 +1,17 @@
+<?php
+/**
+ * Configuration Override
+ *
+ * Use this file for overriding configuration values from all modules using Forms.
+ * Place it in your application config/ folder.
+ */
+
+return array(
+    'view_helpers' => array(
+        'invokables' => array(
+            'form' => 'ZurbFoundationThree\Form\View\Helper\Form',
+            'formbutton' => 'ZurbFoundationThree\Form\View\Helper\FormButton',
+            'formelementerrors' => 'ZurbFoundationThree\Form\View\Helper\FormElementErrors',
+        )
+    )
+);
