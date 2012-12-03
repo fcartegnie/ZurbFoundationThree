@@ -9,7 +9,6 @@
 return array(
     'view_helpers' => array(
         'invokables' => array(
-            'form' => 'ZurbFoundationThree\Form\View\Helper\Form',
             'formbutton' => 'ZurbFoundationThree\Form\View\Helper\FormButton',
             'formelementerrors' => 'ZurbFoundationThree\Form\View\Helper\FormElementErrors',
         )
